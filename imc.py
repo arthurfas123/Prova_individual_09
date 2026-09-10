@@ -7,11 +7,15 @@ def ler_dados():
     return peso, altura
 
 
+def calcular_imc(peso, altura):
+    return peso / (altura * altura)
+
+
 def main():
     print("Calculadora de IMC")
     peso, altura = ler_dados()
-    print("Peso informado:", peso)
-    print("Altura informada:", altura)
+    imc = calcular_imc(peso, altura)
+    print("Seu IMC e: %.2f" % imc)
 
 
 if __name__ == "__main__":
