@@ -13,7 +13,7 @@ IMC = peso / (altura * altura)
 |-----|----------------|
 | < 18.5 | Abaixo do peso |
 | 18.5 a 24.9 | Peso normal |
-| 25.0 a 29.9 | Sobrepesso |
+| 25.0 a 29.9 | Sobrepeso |
 | 30.0 a 34.9 | Obesidade grau I |
 | 35.0 a 39.9 | Obesidade grau II |
 | >= 40.0 | Obesidade grau III |
